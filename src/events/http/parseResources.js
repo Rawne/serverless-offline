@@ -146,7 +146,7 @@ function getIntegrationObj(methodObj) {
 }
 
 function templatePathToHapiPath(path) {
-  return path.replace('+', '')
+  return path.replace('+', '*')
 }
 
 function constructHapiInterface(pathObjects, methodObjects, methodId) {
